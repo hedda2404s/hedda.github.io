@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="index.css">
   <title>My Portfolio - bacheloroppgaven</title>
 </head>
-<body>
+<body class="project">
     <ul>
         <li><a class="active" href="#home">Home</a></li>
         <li><a href="#news"></a></li>
@@ -25,26 +25,33 @@
     
 
 
-
-<body class="project">
-
   <div class="container">
-    <h1>Mitt Prosjekt</h1>
-
+    <h1>Bachelor oppgave</h1>
+    <h1>Dynamisk vektorkart med fokus på tilgjengelighet</h1>
     <p>
-      Et kort sammendrag av prosjektet ditt. Hva gikk det ut på?  
-      Hva var målet, hva gjorde du og hva ble resultatet?  
-      Hold det presist, men informativt — som en portfolio-beskrivelse.
+        Som en del av bacheloroppgaven min på Anvendt datateknologi ved OsloMet utviklet gruppen min og jeg en moderne, webbasert kartapplikasjon i samarbeid med Norconsult Digital AS. Løsningen gjør det mulig å vise geografiske data i sanntid gjennom dynamisk håndtering av vektorfliser i kontrast til tradisjonelle norske kartløsninger som ofte baserer seg på forhåndsgenererte rasterkart.
+
+        Applikasjonen er bygget med **React** og **OpenLayers** på frontend, kombinert med en **ASP.NET Core backend** koblet til en **PostGIS-database** via Martin Tile Server. Dette gir en fleksibel, skalerbar og høyytelsesløsning som støtter:
     </p>
+
+    <ul>
+        <li>Dynamisk innlasting av kartlag basert på zoomnivå</li>
+        <li>Flere tematiske lag samtidig</li>
+        <li>Ulike kartstiler og tilpasninger for universell utforming</li>
+        <li>Søk på stedsnavn og koordinater i flere formater (UTM, DMS og desimalgrader)</li>
+    </ul>
+
+    <p>Prosjektet hadde stort fokus på brukervennlighet og universell utforming, med støtte for WCAG 2.2-standardene. Resultatet er en intuitiv og responsiv applikasjon som kombinerer høy ytelse, god skalerbarhet og inkluderende design, samtidig som den legger til rette for videreutvikling i en produksjonssetting.</p>
+
 
     <h2>Bilder fra prosjektet</h2>
 
     <div class="image-card">
-      <img src="bilder/bilde1.jpg" alt="Prosjektbilde 1">
+      <img src="andreiterasjon_farge.png" alt="Prosjektbilde 1">
     </div>
 
     <div class="image-card">
-      <img src="bilder/bilde2.jpg" alt="Prosjektbilde 2">
+      <img src="wireframe2.png" alt="Prosjektbilde 2">
     </div>
 
     <div class="button-container">
