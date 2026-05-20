@@ -6,7 +6,7 @@ body {
   }
 
   header {
-    background: #3ec4c4;
+    background: #41aac7;
     color: white;
     padding: 100px 20px;
     text-align: center;
@@ -57,7 +57,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333333;
+    background-color: #41aac7;
     position: fixed;
     top: 0;
     width: 100%;
@@ -87,5 +87,5 @@ button:hover {
   }
   
   ul li a.active {
-    background-color: #04AA6D;
+    background-color: #787878;
   }
