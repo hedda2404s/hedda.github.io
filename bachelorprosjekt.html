@@ -7,16 +7,13 @@
   <link rel="stylesheet" href="index.css">
   <title>My Portfolio - bacheloroppgaven</title>
 </head>
-<body class="project">
+<body>
     <ul>
         <li><a class="active" href="#home">Home</a></li>
         <li><a href="#news"></a></li>
         <li><a href="#contact">Kontakt</a></li>
         <li><a href="#about">Om meg</a></li>
       </ul>
-  <header>
-    
-    <!DOCTYPE html>
 <html lang="no">
 <head>
   <meta charset="UTF-8">
@@ -26,33 +23,30 @@
 
 
   <div class="container">
-    <h1>Bachelor oppgave</h1>
-    <h1>Dynamisk vektorkart med fokus på tilgjengelighet</h1>
+    <h1 class="gradient-text">Bachelor oppgave</h1>
+    <h3>Dynamisk vektorkart med fokus på tilgjengelighet</h3>
     <p>
         Som en del av bacheloroppgaven min på Anvendt datateknologi ved OsloMet utviklet gruppen min og jeg en moderne, webbasert kartapplikasjon i samarbeid med Norconsult Digital AS. Løsningen gjør det mulig å vise geografiske data i sanntid gjennom dynamisk håndtering av vektorfliser i kontrast til tradisjonelle norske kartløsninger som ofte baserer seg på forhåndsgenererte rasterkart.
 
         Applikasjonen er bygget med **React** og **OpenLayers** på frontend, kombinert med en **ASP.NET Core backend** koblet til en **PostGIS-database** via Martin Tile Server. Dette gir en fleksibel, skalerbar og høyytelsesløsning som støtter:
     </p>
 
-    <ul>
-        <li>Dynamisk innlasting av kartlag basert på zoomnivå</li>
-        <li>Flere tematiske lag samtidig</li>
-        <li>Ulike kartstiler og tilpasninger for universell utforming</li>
-        <li>Søk på stedsnavn og koordinater i flere formater (UTM, DMS og desimalgrader)</li>
-    </ul>
+  
 
     <p>Prosjektet hadde stort fokus på brukervennlighet og universell utforming, med støtte for WCAG 2.2-standardene. Resultatet er en intuitiv og responsiv applikasjon som kombinerer høy ytelse, god skalerbarhet og inkluderende design, samtidig som den legger til rette for videreutvikling i en produksjonssetting.</p>
 
 
     <h2>Bilder fra prosjektet</h2>
 
-    <div class="image-card">
-      <img src="andreiterasjon_farge.png" alt="Prosjektbilde 1">
-    </div>
-
-    <div class="image-card">
-      <img src="wireframe2.png" alt="Prosjektbilde 2">
-    </div>
+    <div class="image-row">
+        <div class="image-card">
+          <img src="bilder/andreiterasjon_farge.png" alt="Prosjektbilde 1">
+        </div>
+      
+        <div class="image-card">
+          <img src="bilder/wireframe2.png" alt="Prosjektbilde 2">
+        </div>
+      </div>
 
     <div class="button-container">
       <a href="rapport.pdf" target="_blank">
