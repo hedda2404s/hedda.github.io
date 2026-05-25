@@ -88,16 +88,6 @@ body {
     background: #060A1B;
     color: #ccc;
   }
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #060A1B;
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
   .hero-buttons {
     margin-top: 20px;
     display: flex;
@@ -142,12 +132,23 @@ body {
     z-index: -1;
   }
 
+    /* Navigation */
+  .nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #060A1B;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
   
-  ul li {
+  .nav-item {
     float: right;
   }
   
-  ul li a {
+  .nav-link {
     display: block;
     color: white;
     text-align: center;
@@ -155,11 +156,11 @@ body {
     text-decoration: none;
   }
   
-  ul li a:hover:not(.active) {
+  .nav-link:hover:not(.active) {
     background-color: #060617;
   }
   
-  ul li a.active {
+  .nav-link.active {
     background-color: #c953aa;
   }
 
